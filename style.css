@@ -30,7 +30,7 @@ nav{
     top: 0;
     left: 0;
     transition: translate 1s ease-in-out;
-    translate: -20em 0;
+    translate: -100% 0;
 }
 .show{
     translate: 0 0;
