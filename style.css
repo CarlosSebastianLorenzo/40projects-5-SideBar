@@ -9,17 +9,19 @@ body{
     background: #333;
 }
 header h1{
+    color: #ccc;
     position: absolute;
     top: 0.2em;
     left: 0.5em;
     font-size: 3.5em;
     z-index: 1;
+    mix-blend-mode: difference;
 }
 nav{
     box-shadow: 0 -3em 3em rgba(0,0,0,0.1);
     height: 100%;
-    background: #555;
-    padding-top: 10vh;
+    background: #aaa;
+    padding-top: 12vh;
     padding-left: 5em;
     padding-right: 5em;
     display: flex;
